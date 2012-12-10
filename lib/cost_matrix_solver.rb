@@ -12,6 +12,9 @@ class CostMatrix < Matrix
 	def to_s
 		"Cost" + super.to_s # is this safe?
 	end
+	def inspect
+		"Cost" + super.inspect
+	end
 end
 
 class TaskAllocation
@@ -125,6 +128,7 @@ end
 # cost_matrix = CostMatrix[[3,2,7,9,2,4,5], [6,6,6,6,6,6,6], [4,8,8,6,4,5,6], [7,7,7,7,7,7,7]]
 # cost_matrix = CostMatrix[[100, 100, 50, 50, 50], [95, 90, 30, 25, 30], [95, 90, 25, 30, 25]]
 cost_matrix = CostMatrix[[5,7,8,3,4,9,2,6,5,6],[6,6,6,6,6,6,6,6,6,6],[7,7,7,7,7,7,7,7,7,7,],[5,8,9,2,4,5,5,6,8,4],[4,7,9,3,6,4,4,8,7,6],[3,5,8,4,5,6,6,5,5,8]]
+puts cost_matrix.class # TODO fix; the cost_matrix initialization line is somehow creating a plain Matrix, not a CostMatrix
 
 POPULATION_SIZE = 100000 # increases time taken exponentially
 INCLUDE_OLB_AND_UDA_IN_SEED_POPULATION = true
