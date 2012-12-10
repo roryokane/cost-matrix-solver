@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require "rubygems"
 require "gga4r" # genetic algorithm lib that also adds #shuffle! to Array, among others
 require "matrix"

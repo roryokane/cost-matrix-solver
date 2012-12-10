@@ -1,0 +1,16 @@
+# Cost Matrix Solver
+
+## About
+
+This program uses genetic algorithms to solve a scheduling problem given a cost matrix.
+
+In its current implementation, brute-force is actually more effective than using a genetic algorithms, so that’s what the parameters are set to do.
+
+## Usage
+
+[How to run the program.]
+
+## Example run
+
+    $ [command-to-run-program]
+    [output interspersed with any live input]
