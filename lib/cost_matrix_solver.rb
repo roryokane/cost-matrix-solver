@@ -126,7 +126,7 @@ end
 # cost_matrix = CostMatrix[[100, 100, 50, 50, 50], [95, 90, 30, 25, 30], [95, 90, 25, 30, 25]]
 cost_matrix = CostMatrix[[5,7,8,3,4,9,2,6,5,6],[6,6,6,6,6,6,6,6,6,6],[7,7,7,7,7,7,7,7,7,7,],[5,8,9,2,4,5,5,6,8,4],[4,7,9,3,6,4,4,8,7,6],[3,5,8,4,5,6,6,5,5,8]]
 
-POPULATION_SIZE = 100000 # increases time taken exponentially
+POPULATION_SIZE = 10000 # increases time taken exponentially
 INCLUDE_OLB_AND_UDA_IN_SEED_POPULATION = true
 NUM_OF_RESULTS = 100 # increases time taken linearly
 NUM_OF_EVOLUTIONS = 0 # increases time taken exponentially
