@@ -130,7 +130,7 @@ end
 cost_matrix = CostMatrix[[5,7,8,3,4,9,2,6,5,6],[6,6,6,6,6,6,6,6,6,6],[7,7,7,7,7,7,7,7,7,7,],[5,8,9,2,4,5,5,6,8,4],[4,7,9,3,6,4,4,8,7,6],[3,5,8,4,5,6,6,5,5,8]]
 puts cost_matrix.class # TODO fix; the cost_matrix initialization line is somehow creating a plain Matrix, not a CostMatrix
 
-POPULATION_SIZE = 100000 # increases time taken exponentially
+POPULATION_SIZE = 10000 # increases time taken exponentially
 INCLUDE_OLB_AND_UDA_IN_SEED_POPULATION = true
 NUM_OF_RESULTS = 100 # increases time taken linearly
 NUM_OF_EVOLUTIONS = 0 # increases time taken exponentially
